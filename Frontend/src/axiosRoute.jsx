@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:8080"
+  baseURL: " https://dynamic-portfolio-backend-gbv9.onrender.com"
 });
 
 // Attach the token automatically for all requests
