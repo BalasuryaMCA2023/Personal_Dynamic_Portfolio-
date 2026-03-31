@@ -64,7 +64,7 @@ This project includes both **frontend (client)** and **backend (API)** to manage
 ### 1️⃣ Clone Repository
 
 ```id="full02"
-git clone https://github.com/your-username/your-repo-name.git
+(https://github.com/BalasuryaMCA2023/Personal_Dynamic_Portfolio-.git)
 ```
 
 ---
@@ -153,7 +153,7 @@ This project is licensed under the ISC License.
 
 **Bala Surya**
 
-* GitHub: https://github.com/your-username
+* GitHub: https://github.com/balasuryamca2025
 * Portfolio: https://your-portfolio-link.com
 
 ---
