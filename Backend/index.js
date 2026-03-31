@@ -7,7 +7,7 @@ const socketUtils = require('./socket');
 const watchDatabase = require('./utils/watcher');
 
 // Routes
-const AdminRoutes = require('./routes/auth');
+
 const messageRoutes = require('./routes/message');
 const clientVisibilityRoutes = require('./routes/visibility.routes');
 const HomeRoutes = require('./routes/home-routes');
@@ -48,12 +48,11 @@ socketUtils.init(server);
 app.use(express.json());
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://your-portfolio-site.com', 'http://localhost:5174', 'http://localhost:5175'],
+  origin: ['https://personal-dynamic-portfolio-frontend.onrender.com'],
   credentials: true
 }));
 
 // API Routes
-app.use("/auth", AdminRoutes);
 app.use('/messages', messageRoutes);
 app.use('/visibility', clientVisibilityRoutes);
 app.use('/home', HomeRoutes);
