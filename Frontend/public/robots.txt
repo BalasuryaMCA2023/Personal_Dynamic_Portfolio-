@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin/ # Good practice in case there is an admin route in the same domain
+
+Sitemap: https://balasurya.me/sitemap.xml

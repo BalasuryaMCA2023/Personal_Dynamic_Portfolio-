@@ -1,0 +1,14 @@
+#home-page{
+    
+   
+    height: 100vh; /* 100% of viewport height */
+    max-width: 1200px; /* optional - to restrict maximum width */
+    max-height: 100rem; /* optional - to restrict maximum height */
+    margin: 0 auto; /* center horizontally if fixed width is used */
+    overflow: hidden; /* prevent scrollbars if needed */
+}
+#home-heading{
+
+    height: 2.5em; /* optional - to restrict maximum height */
+}
+
