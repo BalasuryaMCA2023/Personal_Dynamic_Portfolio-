@@ -6,7 +6,7 @@ module.exports = {
   init: (httpServer) => {
     io = socketIo(httpServer, {
       cors: {
-        origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175'],
+        origin: ['https://personal-dynamic-portfolio-frontend.onrender.com'],
         methods: ["GET", "POST"],
         credentials: true
       }
