@@ -153,7 +153,7 @@ This project is licensed under the ISC License.
 
 **Bala Surya**
 
-* GitHub: https://github.com/balasuryamca2025
+* GitHub: https://github.com/BalasuryaMCA2023
 * Portfolio: https://your-portfolio-link.com
 
 ---
